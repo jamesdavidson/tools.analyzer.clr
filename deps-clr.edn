@@ -1,2 +1,3 @@
 {:paths ["src/main/clojure"]
- :aliases {:test {:extra-paths ["test/main/clojure"]}}}
+ :aliases {:test {:extra-paths ["test/main/clojure"]}}
+ :deps {io.github.jamesdavidson/tools.analyzer {:git/sha "2b821d9fd08c2296bde63bd792e2fc8f081bf4af"}}}
