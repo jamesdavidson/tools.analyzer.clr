@@ -1,3 +1,5 @@
 {:paths ["src/main/clojure"]
  :aliases {:test {:extra-paths ["test/main/clojure"]}}
- :deps {io.github.jamesdavidson/tools.analyzer {:git/sha "2b821d9fd08c2296bde63bd792e2fc8f081bf4af"}}}
+ :deps {io.github.clojure/clr.core.memoize {:git/tag "v1.1.266" :git/sha "a1a7f68"}
+        io.github.clojure/clr.tools.reader {:git/tag "v1.5.0" :git/sha "46ce896"}
+        io.github.jamesdavidson/tools.analyzer {:git/sha "2b821d9fd08c2296bde63bd792e2fc8f081bf4af"}}}
